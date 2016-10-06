@@ -57,7 +57,7 @@ slug: cfp
     <table class="table">
         <tbody>
 			{% for date in site.data.dates %}
-	        {% if date.Section == 'Camera' %}
+	        {% if date.Section == 'Camera' or date.Section == 'Registration' %}
 			
             <tr>
                 <td><a href="{{date.Link}}">{{date.Name}}</a></td>
